@@ -1,0 +1,10 @@
+<?php echo $this->tag->form("index/search"); ?>
+    <p>
+        <label for="name">Search: </label>
+        <input class="form-control" type="text" name="search">
+    </p>
+    <p>
+        <?php echo $this->tag->submitButton(["Submit",'class'=>'btn btn-primary']); ?>
+    </p>
+
+</form>
